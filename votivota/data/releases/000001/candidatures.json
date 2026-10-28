@@ -1,0 +1,338 @@
+{
+  "format": 1,
+  "listes": {
+    "declares": {
+      "version": "declares-2026-10-28-consolide-39",
+      "active": true,
+      "candidats": [
+        {
+          "id": "edouard-philippe",
+          "nom": "Édouard Philippe",
+          "source": "https://www.lepoint.fr/politique/exclusif-edouard-philippe-je-serai-candidat-a-la-prochaine-election-presidentielle-03-09-2024-2569359_20.php",
+          "date_declaration": "2024-09-03",
+          "source_nom": "Le Point"
+        },
+        {
+          "id": "marine-le-pen",
+          "nom": "Marine Le Pen",
+          "source": "https://www.tf1info.fr/politique/videos/video-ce-soir-je-suis-candidate-a-l-election-presidentielle-annonce-marine-le-pen-au-20h-de-tf1-42648-2451908.html",
+          "date_declaration": "2026-07-07",
+          "source_nom": "TF1 Info"
+        },
+        {
+          "id": "raphael-glucksmann",
+          "nom": "Raphaël Glucksmann",
+          "source": "https://www.tf1info.fr/politique/oui-je-suis-candidat-a-l-election-presidentielle-2027-confirme-raphael-glucksmann-place-publique-sur-tf1-2459966.html",
+          "date_declaration": "2026-08-23",
+          "source_nom": "TF1 Info"
+        },
+        {
+          "id": "david-lisnard",
+          "nom": "David Lisnard",
+          "source": "https://www.rtl.fr/actu/politique/presidentielle-2027-david-lisnard-officialise-sa-candidature-et-claque-la-porte-des-republicains-7900618938",
+          "source_nom": "RTL",
+          "date_declaration": "2026-03-31"
+        },
+        {
+          "id": "natacha-polony",
+          "nom": "Natacha Polony",
+          "source": "https://www.rtl.fr/actu/politique/la-situation-m-oblige-l-essayiste-natacha-polony-officialise-sa-candidature-a-l-election-presidentielle-2027-7900684934",
+          "date_declaration": "2026-10-14",
+          "source_nom": "RTL"
+        },
+        {
+          "id": "bruno-retailleau",
+          "nom": "Bruno Retailleau",
+          "source": "https://www.lemonde.fr/politique/article/2026/02/12/presidentielle-2027-bruno-retailleau-prend-les-devants-a-droite-et-officialise-sa-candidature_6666543_823448.html",
+          "date_declaration": "2026-02-12",
+          "source_nom": "Le Monde"
+        },
+        {
+          "id": "fabien-roussel",
+          "nom": "Fabien Roussel",
+          "source": "https://www.tf1info.fr/politique/direct-video-presidentielle-2027-le-communiste-fabien-roussel-invite-du-jt-de-20h-de-tf1-ce-dimanche-6-septembre-2026-2462617.html",
+          "date_declaration": "2026-09-06",
+          "source_nom": "TF1 Info"
+        },
+        {
+          "id": "marine-tondelier",
+          "nom": "Marine Tondelier",
+          "source": "https://www.lemonde.fr/politique/article/2025/10/22/presidentielle-2027-marine-tondelier-se-presente-candidate_6648904_823448.html",
+          "date_declaration": "2025-10-22",
+          "source_nom": "Le Monde"
+        },
+        {
+          "id": "francois-ruffin",
+          "nom": "François Ruffin",
+          "source": "https://francoisruffin.fr/je-suis-candidat-a-la-presidence-de-la-republique-francaise/",
+          "date_declaration": "2026-01-26",
+          "source_nom": "François Ruffin"
+        },
+        {
+          "id": "jean-luc-melenchon",
+          "nom": "Jean-Luc Mélenchon",
+          "source": "https://www.tf1info.fr/politique/direct-jean-luc-melenchon-invite-du-20h-de-tf1-ce-dimanche-3-mai-2026-election-presidentielle-2439503.html",
+          "date_declaration": "2026-05-03",
+          "source_nom": "TF1 Info"
+        },
+        {
+          "id": "delphine-batho",
+          "nom": "Delphine Batho",
+          "source": "https://www.generationecologie.fr/newsletter/je-suis-candidate-a-lelection-presidentielle-pour-reconstruire-une-ecologie-capable-de-gouverner-2/",
+          "source_nom": "Génération Écologie",
+          "date_declaration": "2025-11-27"
+        },
+        {
+          "id": "nathalie-arthaud",
+          "nom": "Nathalie Arthaud",
+          "source": "https://www.rtl.fr/actu/politique/presidentielle-2027-nathalie-arthaud-porte-parole-de-lutte-ouvriere-annonce-sa-candidature-7900575262",
+          "date_declaration": "2025-12-08",
+          "source_nom": "RTL"
+        },
+        {
+          "id": "eric-zemmour",
+          "nom": "Éric Zemmour",
+          "source": "https://www.rtl.fr/actu/politique/presidentielle-2027-eric-zemmour-confirme-sa-candidature-et-donne-les-premieres-pistes-de-son-programme-7900673673",
+          "date_declaration": "2026-09-17",
+          "source_nom": "RTL"
+        },
+        {
+          "id": "sylvain-durif",
+          "nom": "Sylvain Durif",
+          "source": "https://www.rtl.fr/actu/politique/christ-cosmique-grand-monarque-et-bientot-president-de-la-republique-le-videaste-complotiste-sylvain-durif-se-declare-candidat-a-l-election-de-2027-7900664715",
+          "date_declaration": "2026-08-23",
+          "source_nom": "RTL"
+        },
+        {
+          "id": "nicolas-dupont-aignan",
+          "nom": "Nicolas Dupont-Aignan",
+          "source": "https://www.dupontaignan.fr/actualite/liberons-la-france-%C2%B7-discours-de-rentree-de-nicolas-dupont-aignan/",
+          "source_nom": "Nicolas Dupont-Aignan"
+        },
+        {
+          "id": "francois-asselineau",
+          "nom": "François Asselineau",
+          "source": "https://www.upr.fr/wp-content/uploads/2026/02/Lettre-ouverte_F.-Asselineau_Le-Grand-Continent_vEnvoi-Copie.pdf",
+          "source_nom": "UPR"
+        },
+        {
+          "id": "gabriel-attal",
+          "nom": "Gabriel Attal",
+          "source": "https://www.tf1info.fr/politique/presidentielle-2027-gabriel-attal-officialise-sa-candidature-lors-d-un-deplacement-dans-l-aveyron-2442945.html",
+          "date_declaration": "2026-05-22",
+          "source_nom": "TF1 Info"
+        },
+        {
+          "id": "bernard-cazeneuve",
+          "nom": "Bernard Cazeneuve",
+          "source": "https://www.leparisien.fr/elections/presidentielle/cest-par-un-contrat-qui-me-lie-aux-francais-que-je-presente-ma-candidature-bernard-cazeneuve-devoile-sa-lettre-pour-2027-16-07-2026-IZIQSDYXKBBT5MZBHIDBXGXFYE.php",
+          "date_declaration": "2026-07-16",
+          "source_nom": "Le Parisien"
+        },
+        {
+          "id": "florian-philippot",
+          "nom": "Florian Philippot",
+          "source": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-florian-philippot-declare-sa-candidature-mais-se-dit-deja-pret-a-se-retirer-09-05-2026-ABUDCTJBNZCR7DVIYOHXLHZHSA.php",
+          "date_declaration": "2026-05-09",
+          "source_nom": "Le Parisien"
+        },
+        {
+          "id": "francis-lalanne",
+          "nom": "Francis Lalanne",
+          "source": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-francis-lalanne-officiellement-candidat-son-premier-meeting-de-campagne-annonce-a-paris-19-08-2026-2VLEW57SFZDZFP6AQ34HPMAZJM.php",
+          "date_declaration": "2026-08-19",
+          "source_nom": "Le Parisien"
+        },
+        {
+          "id": "anasse-kazib",
+          "nom": "Anasse Kazib",
+          "source": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-anasse-kazib-annonce-sa-candidature-01-06-2026-PUBVNE5K75CABMNWIQE4HR2ZJ4.php",
+          "date_declaration": "2026-06-01",
+          "source_nom": "Le Parisien"
+        },
+        {
+          "id": "selma-labib",
+          "nom": "Selma Labib",
+          "source": "https://www.npa-revolutionnaires.org/articles/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante",
+          "date_declaration": "2026-06-17",
+          "source_nom": "NPA-Révolutionnaires"
+        },
+        {
+          "id": "karim-bouamrane",
+          "nom": "Karim Bouamrane",
+          "source": "https://www.lemonde.fr/politique/article/2026/06/09/karim-bouamrane-maire-socialiste-de-saint-ouen-se-declare-candidat-a-l-election-presidentielle_6700113_823448.html",
+          "date_declaration": "2026-06-09",
+          "source_nom": "Le Monde"
+        },
+        {
+          "id": "gilles-platret",
+          "nom": "Gilles Platret",
+          "source": "https://www.leparisien.fr/elections/presidentielle/presidentielle-2027-la-guerre-civile-a-deja-commence-le-maire-divers-droite-de-chalon-sur-saone-gilles-platret-annonce-sa-candidature-09-10-2026-7Z4HG62GOJHTNOFLHDN7J7HZLQ.php",
+          "date_declaration": "2026-10-08",
+          "source_nom": "Le Parisien"
+        },
+        {
+          "id": "olivier-becht",
+          "nom": "Olivier Becht",
+          "source": "https://fr.linkedin.com/posts/olivier-becht-7b9b9a155_annonce-de-candidature-%C3%A0-l%C3%A9lection-pr%C3%A9sidentielle-activity-7510364116948037633-y8sb",
+          "date_declaration": "2026-09-24",
+          "source_nom": "LinkedIn — Olivier Becht"
+        },
+        {
+          "id": "juan-branco",
+          "nom": "Juan Branco",
+          "source": "https://www.sudradio.fr/sud-radio/lavocat-juan-branco-candidat-a-la-presidentielle",
+          "date_declaration": "2025-12-19",
+          "source_nom": "Sud Radio"
+        },
+        {
+          "id": "benoit-mathieu",
+          "nom": "Benoît Mathieu",
+          "source": "https://benoitmathieu2027.fr/le-candidat",
+          "source_nom": "Benoît Mathieu",
+          "date_declaration": "2026-03-30"
+        },
+        {
+          "id": "mira-markovic",
+          "nom": "Mira Markovic",
+          "source": "https://parti-animaliste.fr/news/communique-de-presse/mira-markovic-representera-le-parti-animaliste-a-la-presidentielle",
+          "source_nom": "Parti animaliste",
+          "date_declaration": "2026-10-02"
+        },
+        {
+          "id": "clara-egger",
+          "nom": "Clara Egger",
+          "source": "https://solutiondemocratique.fr/parrainage2027/",
+          "source_nom": "Solution Démocratique"
+        },
+        {
+          "id": "antoine-mikolajczak",
+          "nom": "Antoine Mikolajczak",
+          "source": "https://parti-equinoxe.fr/retour-sur-le-lancement-de-campagne-dequinoxe/",
+          "source_nom": "Équinoxe",
+          "date_declaration": "2026-06-27"
+        },
+        {
+          "id": "manolo-mlekuz",
+          "nom": "Manolo Mlekuz",
+          "source": "https://trajectoire2027.fr/presse",
+          "source_nom": "Trajectoire"
+        },
+        {
+          "id": "jean-francois-legendre",
+          "nom": "Jean-François Legendre",
+          "source": "https://www.anousmaintenant.fr/",
+          "source_nom": "À nous maintenant"
+        },
+        {
+          "id": "emmanuel-dubuisson",
+          "nom": "Emmanuel Dubuisson",
+          "source": "https://www.youtube.com/watch?v=0WOV3dqd6cs",
+          "date_declaration": "2026-06-18",
+          "source_nom": "Emmanuel Dubuisson — YouTube"
+        },
+        {
+          "id": "melody-delmur",
+          "nom": "Mélody Delmur",
+          "source": "https://parti-asdecoeur.fr/melody-delmur-candidate/",
+          "date_declaration": "2025-07-26",
+          "source_nom": "Parti As de Cœur"
+        },
+        {
+          "id": "philippe-herlin",
+          "nom": "Philippe Herlin",
+          "source": "https://herlin27.fr/",
+          "source_nom": "HERLIN27 — site de campagne"
+        },
+        {
+          "id": "david-saforcada",
+          "nom": "David Saforcada",
+          "source": "https://lediplomate.media/grand-entretien-david-saforcada-candidat-presidentielle-2027-souverainete-afrique-francophonie-vision-france-compte-nouveau/",
+          "date_declaration": "2026-04-29",
+          "source_nom": "Le Diplomate"
+        },
+        {
+          "id": "sebastien-bonnal",
+          "nom": "Sébastien Bonnal",
+          "source": "https://presitracker2027.fr/candidats/bonnal",
+          "source_nom": "PresiTracker2027 — référence à la notice de la Commission des sondages"
+        },
+        {
+          "id": "erwan-rohou",
+          "nom": "Erwan Rohou",
+          "source": "https://www.leparisien.fr/politique/presidentielle-2027-qui-sont-les-candidats-qui-pourrait-se-lancer-dans-la-course-notre-suivi-en-temps-reel-12-09-2026-KQJ4A7QVERCNJCLGCJGJYY2O74.php",
+          "date_declaration": "2026-09-11",
+          "source_nom": "Le Parisien"
+        },
+        {
+          "id": "xavier-bertrand",
+          "nom": "Xavier Bertrand",
+          "source": "https://lcp.fr/actualites/2027-figure-de-la-droite-xavier-bertrand-confirme-qu-il-sera-candidat-a-l-election",
+          "date_declaration": "2026-08-27",
+          "source_nom": "LCP - Assemblée nationale"
+        }
+      ]
+    },
+    "premier_tour": {
+      "version": "premier-tour-en-attente",
+      "active": false,
+      "source_officielle": null,
+      "candidats": []
+    },
+    "second_tour": {
+      "version": "second-tour-en-attente",
+      "active": false,
+      "source_officielle": null,
+      "candidats": []
+    }
+  },
+  "historique": [
+    {
+      "date": "2026-10-15",
+      "type": "constitution",
+      "total_declares": 26,
+      "description": "Constitution d’un premier corpus local de 26 candidatures déclarées."
+    },
+    {
+      "date": "2026-10-16",
+      "type": "consolidation",
+      "total_declares": 31,
+      "description": "Consolidation éditoriale : cinq candidatures supplémentaires, soit 31 personnes dans la liste déclarée. Les listes officielles du premier et du second tour ne sont pas encore activées."
+    },
+    {
+      "date": "2026-10-17",
+      "type": "ajout",
+      "candidat_id": "jean-francois-legendre",
+      "total_declares": 32,
+      "description": "Ajout documenté de Jean-François Legendre. La liste des candidatures déclarées comprend désormais 32 personnes."
+    },
+    {
+      "date": "2026-10-20",
+      "type": "ajout",
+      "candidat_id": "emmanuel-dubuisson",
+      "total_declares": 33,
+      "description": "Ajout d’Emmanuel Dubuisson après vérification de sa déclaration publique du 18 juin 2026. La liste des candidatures déclarées comprend désormais 33 personnes."
+    },
+    {
+      "date": "2026-10-21",
+      "type": "ajout",
+      "candidat_id": "melody-delmur",
+      "total_declares": 34,
+      "description": "Ajout de Mélody Delmur, après vérification de sa déclaration publique du 26 juillet 2025 et de l’officialisation de sa candidature par As de Cœur le 5 septembre 2025. La liste des candidatures déclarées comprend désormais 34 personnes."
+    },
+    {
+      "date": "2026-10-24",
+      "type": "consolidation",
+      "total_declares": 38,
+      "description": "Veille documentaire du 24 octobre : ajout de quatre candidatures antérieurement déclarées (Philippe Herlin, David Saforcada, Sébastien Bonnal, Erwan Rohou). Dates de déclaration non établies avec certitude laissées absentes."
+    },
+    {
+      "date": "2026-10-28",
+      "type": "ajout",
+      "candidat_id": "xavier-bertrand",
+      "total_declares": 39,
+      "description": "Ajout de Xavier Bertrand sur déclaration personnelle explicite du 27 août 2026 (« Je le serai »), malgré le report annoncé de sa déclaration formelle. Source : LCP. Les quatre ajouts du 24 octobre étaient déjà intégrés."
+    }
+  ]
+}
+
