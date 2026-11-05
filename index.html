@@ -9,12 +9,23 @@
     body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; color: #171717; background: #fff; line-height: 1.6; }
     main { max-width: 760px; margin: 0 auto; padding: 90px 28px; }
     h1 { font-size: 48px; letter-spacing: -2px; margin: 0; }
-    h2 { font-size: 23px; margin-top: 0; }
+    h2 { font-size: 23px; margin: 0 0 12px; }
     .intro { color: #666; margin: 4px 0 65px; }
-    section { padding: 30px 0; border-top: 1px solid #ddd; }
+    section { padding: 34px 0; border-top: 1px solid #ddd; display: grid; grid-template-columns: 116px minmax(0, 1fr); gap: 30px; align-items: start; }
+    .capture { display: block; width: 116px; height: auto; border: 1px solid #eee; }
+    .details p { margin: 0 0 15px; }
     a { color: inherit; }
     .link { font-weight: 600; }
+    .store-status { color: #777; font-size: 13px; margin: 8px 0 0; }
     footer { border-top: 1px solid #ddd; margin-top: 45px; padding-top: 25px; color: #666; font-size: 14px; }
+    @media (max-width: 520px) {
+      main { padding: 48px 22px; }
+      h1 { font-size: 42px; }
+      .intro { margin-bottom: 44px; }
+      section { grid-template-columns: 92px minmax(0, 1fr); gap: 18px; padding: 28px 0; }
+      .capture { width: 92px; }
+      h2 { font-size: 20px; overflow-wrap: anywhere; }
+    }
   </style>
 </head>
 <body>
@@ -22,19 +33,29 @@
     <h1>DEGAN</h1>
     <p class="intro">Applications indépendantes.</p>
     <section>
-      <h2>ÉNONCIATEUR</h2>
-      <p>Explorer l'histoire du design et de l'architecture à travers des problématiques documentées.</p>
-      <p><a class="link" href="/enonciateur/">Assistance et confidentialité →</a></p>
+      <!-- À la publication : entourer l'image d'un lien <a href="URL_APP_STORE"> et remplacer le statut par un lien App Store. -->
+      <div><img class="capture" src="images/enonciateur.png" alt="Capture d’écran de l’application ÉNONCIATEUR" width="116" loading="lazy"><p class="store-status">App Store : à venir</p></div>
+      <div class="details">
+        <h2>ÉNONCIATEUR</h2>
+        <p>Explorer l'histoire du design et de l'architecture à travers des problématiques documentées.</p>
+        <p><a class="link" href="/enonciateur/">Assistance et confidentialité →</a></p>
+      </div>
     </section>
     <section>
-      <h2>PIPILANPIPI</h2>
-      <p>Composer, explorer et partager des palettes de couleurs.</p>
-      <p><a class="link" href="/pipilanpipi/">Assistance et confidentialité →</a></p>
+      <div><img class="capture" src="images/pipilanpipi.jpg" alt="Capture d’écran de l’application PIPILANPIPI" width="116" loading="lazy"><p class="store-status">App Store : à venir</p></div>
+      <div class="details">
+        <h2>PIPILANPIPI</h2>
+        <p>Composer, explorer et partager des palettes de couleurs.</p>
+        <p><a class="link" href="/pipilanpipi/">Assistance et confidentialité →</a></p>
+      </div>
     </section>
     <section>
-      <h2>VOTIVOTA</h2>
-      <p>Tirer au sort parmi les candidatures à l'élection présidentielle de 2027. Juste pour voir.</p>
-      <p><a class="link" href="/votivota/">Assistance et confidentialité →</a></p>
+      <div><img class="capture" src="images/votivota.png" alt="Capture d’écran de l’application VOTIVOTA" width="116" loading="lazy"><p class="store-status">App Store : à venir</p></div>
+      <div class="details">
+        <h2>VOTIVOTA</h2>
+        <p>Tirer au sort parmi les candidatures à l'élection présidentielle de 2027. Juste pour voir.</p>
+        <p><a class="link" href="/votivota/">Assistance et confidentialité →</a></p>
+      </div>
     </section>
     <footer>Contact : <a href="mailto:degan.app@gmail.com">degan.app@gmail.com</a></footer>
   </main>
