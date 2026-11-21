@@ -1,29 +1,69 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>DEGAN-Apps — Applications indépendantes</title>
-<style>
-:root{color-scheme:light}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:#101010;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;line-height:1.35}main{max-width:1040px;margin:0 auto;padding:64px 32px 44px}header{margin-bottom:55px}h1{font-size:clamp(36px,5vw,56px);letter-spacing:-.045em;margin:0;font-weight:750}.intro{margin:4px 0 0;color:#666;font-size:17px}.app{display:grid;grid-template-columns:minmax(190px,260px) minmax(0,1fr);gap:34px;align-items:stretch;margin:0 0 42px}.art{display:flex;align-items:flex-start;justify-content:center}.art a{display:block;width:100%}.art img{display:block;width:100%;height:auto;aspect-ratio:1/1.13;object-fit:contain}.copy{border-left:2px solid #171717;padding:0 0 0 32px;display:flex;flex-direction:column;align-items:flex-start}h2{font-size:clamp(29px,3.5vw,44px);letter-spacing:-.035em;line-height:1.05;margin:0 0 9px;font-weight:750}.description{font-size:clamp(18px,2.1vw,24px);line-height:1.25;margin:0 0 22px;max-width:640px}.specs{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:1px 20px;margin:0 0 23px;font-size:15px;line-height:1.3}.specs dt{font-weight:700}.specs dd{margin:0}.links{margin-top:auto;display:flex;flex-direction:column;align-items:flex-start;font-size:17px;font-weight:600;line-height:1.3}.links a,a{color:inherit}.links a:hover,.art a:hover{opacity:.68}.art a:focus-visible,.links a:focus-visible,footer a:focus-visible{outline:3px solid #2459a7;outline-offset:4px}footer{border-top:1px solid #ddd;margin-top:50px;padding-top:24px;font-size:13px;line-height:1.6;color:#555}footer p{margin:0}@media(max-width:640px){main{padding:35px 18px}header{margin-bottom:34px}.app{grid-template-columns:minmax(105px,36%) minmax(0,1fr);gap:14px;margin-bottom:35px}.copy{padding-left:14px;border-left-width:1px}h2{font-size:clamp(21px,5vw,30px)}.description{font-size:clamp(14px,3.5vw,18px);margin-bottom:15px}.specs{font-size:clamp(10px,2.6vw,13px);gap:3px 7px;margin-bottom:14px}.links{font-size:clamp(12px,3vw,15px)}.art img{aspect-ratio:auto}}@media(max-width:380px){.app{grid-template-columns:1fr;gap:12px}.art{justify-content:flex-start}.art img,.art a{max-width:240px}.copy{padding-left:14px}.specs{font-size:13px}.links{font-size:15px}}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="DEGAN-Apps — Applications indépendantes pour le design, la couleur et la citoyenneté.">
+  <title>DEGAN-Apps — Applications indépendantes</title>
+  <style>
+    *{box-sizing:border-box}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;color:#111;background:#fff;line-height:1.35}
+    main{max-width:940px;margin:0 auto;padding:65px 24px 60px}
+    h1{font-size:48px;letter-spacing:-2px;line-height:1.1;margin:0;font-weight:750}
+    .intro{font-size:16px;color:#666;margin:12px 0 50px}
+    section{display:grid;grid-template-columns:210px minmax(0,1fr);gap:28px;margin:0 0 40px;align-items:stretch}
+    .visual{display:flex;align-items:flex-start;justify-content:center;padding-top:0}
+    .visual img{display:block;width:154px;max-width:100%;height:auto}
+    .details{border-left:2px solid #171717;padding:0 0 0 29px}
+    h2{font-size:40px;letter-spacing:-1.5px;line-height:1.08;margin:0 0 7px;font-weight:750}
+    .description{font-size:20px;line-height:1.38;margin:0 0 19px}
+    dl{display:grid;grid-template-columns:max-content 1fr;column-gap:18px;row-gap:2px;font-size:14px;margin:0 0 19px}
+    dt{font-weight:750}dd{margin:0}
+    .links{font-size:15px;line-height:1.28;margin:0}
+    a{color:inherit;text-underline-offset:2px}
+    .links a{font-weight:650}
+    footer{border-top:1px solid #ddd;margin-top:45px;padding-top:24px;color:#555;font-size:13px;line-height:1.55}
+    footer p{margin:0}
+    @media(max-width:650px){main{padding:45px 20px}h1{font-size:42px}.intro{margin-bottom:35px}section{grid-template-columns:112px minmax(0,1fr);gap:15px;margin-bottom:34px}.visual img{width:112px}.details{padding-left:17px}h2{font-size:29px}.description{font-size:16px}dl{font-size:12px;column-gap:8px}.links{font-size:13px}}
+    @media(max-width:390px){section{grid-template-columns:86px minmax(0,1fr);gap:11px}.visual img{width:86px}.details{padding-left:12px}h2{font-size:25px}.description{font-size:15px}dl{font-size:11px;column-gap:6px}}
+  </style>
 </head>
-<body><main>
-<header><h1>DEGAN-Apps</h1><p class="intro">Applications indépendantes.</p></header>
-<section class="app" aria-labelledby="enonciateur">
-<div class="art"><a href="https://apps.apple.com/fr/app/id6829320209" aria-label="ÉNONCIATEUR sur l’App Store"><img src="images/enonciateur_2.png" alt="Présentation d’Énonciateur sur iPhone" width="260" loading="eager"></a></div>
-<div class="copy"><h2 id="enonciateur">Énonciateur</h2><p class="description">Construisez vos problématiques, partez de vos questions et découvrez celles que d’autres ont construites avant vous afin d’énoncer ce que vous cherchez.</p>
-<dl class="specs"><dt>CATÉGORIE :</dt><dd>Éducation</dd><dt>TAILLE :</dt><dd>8,5 Mo</dd><dt>COMPATIBILITÉ :</dt><dd>iPhone</dd><dt>LANGUES :</dt><dd>Français</dd><dt>ABONNEMENT :</dt><dd>Oui</dd></dl>
-<nav class="links" aria-label="Informations Énonciateur"><a href="/enonciateur/">Assistance et confidentialité</a><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Conditions générales d’utilisation</a></nav></div></section>
-<section class="app" aria-labelledby="pipilanpipi">
-<div class="art"><a href="https://apps.apple.com/fr/app/id6829416853" aria-label="PIPILANPIPI sur l’App Store"><img src="images/pipilanpipi_2.png" alt="Présentation de Pipilanpipi sur iPhone" width="260" loading="lazy"></a></div>
-<div class="copy"><h2 id="pipilanpipi">Pipilanpipi</h2><p class="description">Un laboratoire ludique de palettes colorées à manipuler, réorganiser, conserver et exporter.</p>
-<dl class="specs"><dt>CATÉGORIE :</dt><dd>Graphisme et Design</dd><dt>TAILLE :</dt><dd>4,3 Mo</dd><dt>COMPATIBILITÉ :</dt><dd>iPhone et iPad</dd><dt>LANGUES :</dt><dd>Anglais</dd><dt>ACHAT UNIQUE :</dt><dd>6,99 €</dd></dl>
-<nav class="links" aria-label="Informations Pipilanpipi"><a href="/pipilanpipi/">Assistance et confidentialité</a><a href="/pipilanpipi/#conditions-generales">Conditions générales d’utilisation</a></nav></div></section>
-<section class="app" aria-labelledby="votivota">
-<div class="art"><img src="images/votivota_2.png" alt="Présentation de Votivota sur iPhone" width="260" loading="lazy"></div>
-<div class="copy"><h2 id="votivota">Votivota</h2><p class="description">Une application consacrée à la présidentielle de 2027, fondée sur un tirage au sort neutre, sans recommandation électorale ni collecte d’opinions.</p>
-<dl class="specs"><dt>CATÉGORIE :</dt><dd>Citoyenneté et Hasard</dd><dt>TAILLE :</dt><dd>11,2 Mo</dd><dt>COMPATIBILITÉ :</dt><dd>iPhone</dd><dt>LANGUES :</dt><dd>Français</dd><dt>ACHAT UNIQUE :</dt><dd>2,99 €</dd></dl>
-<nav class="links" aria-label="Informations Votivota"><a href="/votivota/">Assistance et confidentialité</a><a href="/votivota/#conditions-generales">Conditions générales d’utilisation</a></nav></div></section>
-<footer><p><strong>Mentions légales</strong><br>Éditeur : Sébastien Taillefer — entrepreneur individuel, artiste-auteur — DEGAN-Apps<br>SIREN : 408 468 874<br>117 route du Grand Taizan, 85230 Saint-Gervais, France<br>Hébergement : GitHub Pages, GitHub, Inc. — <a href="https://pages.github.com/">pages.github.com</a><br>Contact : <a href="mailto:degan.app@gmail.com">degan.app@gmail.com</a></p></footer>
-</main></body></html>
+<body>
+<main>
+  <h1>DEGAN-Apps</h1>
+  <p class="intro">Applications indépendantes.</p>
+
+  <section aria-labelledby="enonciateur-title">
+    <div class="visual"><a href="https://apps.apple.com/fr/app/id6829320209" aria-label="ÉNONCIATEUR sur l’App Store"><img src="images/enonciateur_2.png" alt="Présentation de l’application ÉNONCIATEUR" loading="lazy"></a></div>
+    <div class="details">
+      <h2 id="enonciateur-title">Énonciateur</h2>
+      <p class="description">Construisez vos problématiques, partez de vos questions et découvrez celles que d’autres ont construites avant vous afin d’énoncer ce que vous cherchez.</p>
+      <dl><dt>CATÉGORIE :</dt><dd>Éducation</dd><dt>TAILLE :</dt><dd>8,5 Mo</dd><dt>COMPATIBILITÉ :</dt><dd>iPhone</dd><dt>LANGUES :</dt><dd>Français</dd><dt>ABONNEMENT :</dt><dd>Oui</dd></dl>
+      <p class="links"><a href="/enonciateur/#confidentialite">Assistance et confidentialité</a><br><a href="/enonciateur/#conditions">Conditions générales d’utilisation</a></p>
+    </div>
+  </section>
+
+  <section aria-labelledby="pipilanpipi-title">
+    <div class="visual"><a href="https://apps.apple.com/fr/app/id6829416853" aria-label="PIPILANPIPI sur l’App Store"><img src="images/pipilanpipi_2.png" alt="Présentation de l’application PIPILANPIPI" loading="lazy"></a></div>
+    <div class="details">
+      <h2 id="pipilanpipi-title">Pipilanpipi</h2>
+      <p class="description">Un laboratoire ludique de palettes colorées à manipuler, réorganiser, conserver et exporter.</p>
+      <dl><dt>CATÉGORIE :</dt><dd>Graphisme et Design</dd><dt>TAILLE :</dt><dd>4,3 Mo</dd><dt>COMPATIBILITÉ :</dt><dd>iPhone et iPad</dd><dt>LANGUES :</dt><dd>Anglais</dd><dt>ACHAT UNIQUE :</dt><dd>6,99 €</dd></dl>
+      <p class="links"><a href="/pipilanpipi/#confidentialite">Assistance et confidentialité</a><br><a href="/pipilanpipi/#cgu">Conditions générales d’utilisation</a></p>
+    </div>
+  </section>
+
+  <section aria-labelledby="votivota-title">
+    <div class="visual"><img src="images/votivota_2.png" alt="Présentation de l’application VOTIVOTA" loading="lazy"></div>
+    <div class="details">
+      <h2 id="votivota-title">Votivota</h2>
+      <p class="description">Une application consacrée à la présidentielle de 2027, fondée sur un tirage au sort neutre, sans recommandation électorale ni collecte d’opinions.</p>
+      <dl><dt>CATÉGORIE :</dt><dd>Citoyenneté et Hasard</dd><dt>TAILLE :</dt><dd>11,2 Mo</dd><dt>COMPATIBILITÉ :</dt><dd>iPhone</dd><dt>LANGUES :</dt><dd>Français</dd><dt>ACHAT UNIQUE :</dt><dd>2,99 €</dd></dl>
+      <p class="links"><a href="/votivota/#confidentialite">Assistance et confidentialité</a><br><a href="/votivota/#conditions">Conditions générales d’utilisation</a></p>
+    </div>
+  </section>
+
+  <footer><p><strong>Mentions légales</strong><br>Éditeur : Sébastien Taillefer — entrepreneur individuel, artiste-auteur — DEGAN-Apps<br>SIREN : 408 468 874<br>117 route du Grand Taizan, 85230 Saint-Gervais, France<br>Hébergement : GitHub Pages, GitHub, Inc. — <a href="https://pages.github.com/">pages.github.com</a><br>Contact : <a href="mailto:degan.app@gmail.com">degan.app@gmail.com</a></p></footer>
+</main>
+</body>
+</html>
