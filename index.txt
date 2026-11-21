@@ -1,18 +1,0 @@
-DEGAN-Apps
-Applications indépendantes.
-
-ÉNONCIATEUR
-Voir sur l’App Store →
-Explorer l'histoire du design et de l'architecture à travers des problématiques documentées.
-Assistance et confidentialité →
-
-PIPILANPIPI
-Voir sur l’App Store →
-Composer, explorer et partager des palettes de couleurs.
-Assistance et confidentialité →
-
-App Store : à venir
-VOTIVOTA
-Tirer au sort parmi les candidatures à l'élection présidentielle de 2027. Juste pour voir.
-Assistance et confidentialité →
-Mentions légales Éditeur : Sébastien Taillefer — entrepreneur individuel, artiste-auteur — DEGAN-Apps SIREN : 408 468 874 117 route du Grand Taizan, 85230 Saint-Gervais, France Hébergement : GitHub Pages, GitHub, Inc. — pages.github.com Contact : degan.app@gmail.com
