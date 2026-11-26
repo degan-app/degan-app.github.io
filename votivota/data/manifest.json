@@ -1,22 +1,22 @@
 {
   "files" : {
     "calendrier" : {
-      "path" : "releases\/000004\/calendrier.json",
+      "path" : "releases\/000005\/calendrier.json",
       "revision" : 1,
       "sha256" : "c5279472c00b98dd39e1dcad0813307e3535f240e5112a55a79b85aeab1d9d41"
     },
     "candidatures" : {
-      "path" : "releases\/000004\/candidatures.json",
-      "revision" : 4,
-      "sha256" : "a84138b7ecb3c3b5e341d2f8b9d05930b843aa08c78b1d9319dcc14eb2adc31d"
+      "path" : "releases\/000005\/candidatures.json",
+      "revision" : 5,
+      "sha256" : "4244cf55386791f2cc5e1139c1049345cb901a7d7037bce13a45449baabbe4f4"
     }
   },
-  "publication_sequence" : 4,
-  "published_at" : "2026-11-24T17:37:57Z",
+  "publication_sequence" : 5,
+  "published_at" : "2026-11-26T18:46:04Z",
   "schema_version" : 1,
   "signature" : {
     "algorithm" : "Ed25519",
     "key_id" : "votivota-prod-2026-01",
-    "value" : "WPW9\/Uq8gPC8jq9TgKOn0\/VA5kkYfTghq3TTa\/pSSq5zuXZipznKadRwGPXKPuVE++2i+VmaoHgAJiHSwXJeBg=="
+    "value" : "0BKCX\/JK0DmyJU0OdGHH+RIZBAm2\/gZbc+qGrg6Uq+1zp3DfvVNjTuREKnOTB9gEe+MG3moGpNwS6rhfxaojBw=="
   }
 }
